@@ -8,8 +8,8 @@ It uses React with Typescript
 
 ## npm run dev
 
-`To run the app in development mode`
+To run the app in `development mode`
 
 ## npm run build
 
-`To run the app in production mode`
+To run the app in `production mode`
