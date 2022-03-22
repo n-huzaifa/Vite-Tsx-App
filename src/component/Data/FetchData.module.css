@@ -1,0 +1,33 @@
+a {
+  color: rgb(208, 208, 208);
+  font-weight: 700;
+}
+.upvotes,
+.author {
+  font-weight: bold;
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.upvotes {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.author {
+  font-weight: 200;
+  font-size: 14px;
+  color: white;
+}
+
+.body {
+  font-weight: 200;
+  font-size: 20px;
+}
+.comp {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgb(223, 83, 83);
+  border-radius: 20px;
+}
