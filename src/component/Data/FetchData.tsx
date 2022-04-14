@@ -15,10 +15,15 @@ const FetchData = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://www.reddit.com/r/reactjs.json`).then((res) => {
-      const newPosts = res.data.data.children.map((obj: any) => obj.data);
-      setPosts(newPosts);
-    });
+    axios
+      .get(`https://www.reddit.com/r/reactjs.json`)
+      .then((res) => {
+        const newPosts = res.data.data.children.map((obj: any) => obj.data);
+        setPosts(newPosts);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
 
   return (
